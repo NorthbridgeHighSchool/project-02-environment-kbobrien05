@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Castoro&family=Merriweather&display=swap');
+img {
+  max-height: 150px;
+  border: 3px solid rgb(24, 116, 1);
+  padding: 2px;
+}
+html {
+  background-color: rgb(199, 236, 198);
+}
+h1 {
+  color: rgb(42, 104, 42);
+  font-family: "Merriweather", serif;
+}
+h2 {
+  color: rgb(87, 58, 4);
+  font-family: "Abril Fatface", fantasy;
+}
+a:link {
+  color: rgb(49, 5, 29);
+  border: 2px solid rgb(44, 1, 19);
+  background-color: rgb(232, 240, 126);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(146, 148, 5);
+}
+a:hover {
+  color: rgb(24, 116, 1);
+  border: 2px solid rgb(24, 116, 1);
+  background-color: rgb(120, 228, 110);
+  text-decoration: underline;
+  box-shadow: 0 0 3px 3px rgb(24, 116, 1);
+}
+a.current {
+  color: rgb(126, 125, 125);
+  background-color: rgb(224, 223, 223);
+  border: 2px solid rgb(126, 125, 125);
+}
+a:active {
+  color: rgb(49, 88, 160);
+}
+li {
+  margin-bottom: 10px;
+}
+.odd {
+  float: left;
+  margin-right: 10px;
+}
+.even {
+  float: right;
+  margin-left: 10px;
+}
+p {
+  text-align: justify;
+  font-family: "Castoro", serif;
+  color: rgb(6, 2, 49);
+}
